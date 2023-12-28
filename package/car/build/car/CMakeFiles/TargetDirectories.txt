@@ -1,0 +1,9 @@
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/uninstall.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/car_uninstall.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/test.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/edit_cache.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/rebuild_cache.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/list_install_components.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/install.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/install/local.dir
+/home/optimus/Desktop/car_proj_ws/src/car/build/car/CMakeFiles/install/strip.dir

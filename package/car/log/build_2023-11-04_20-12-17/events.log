@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000634] (car) JobQueued: {'identifier': 'car', 'dependencies': OrderedDict()}
+[0.000670] (car) JobStarted: {'identifier': 'car'}
+[0.075047] (car) JobProgress: {'identifier': 'car', 'progress': 'cmake'}
+[0.075163] (car) Command: {'cmd': ['/usr/bin/cmake', '/home/optimus/Desktop/car_proj_ws/src/car', '-DCMAKE_INSTALL_PREFIX=/home/optimus/Desktop/car_proj_ws/src/car/install/car'], 'cwd': '/home/optimus/Desktop/car_proj_ws/src/car/build/car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimus'), ('OLDPWD', '/home/optimus/Desktop/car_proj_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimus'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/optimus/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Optimus:@/tmp/.ICE-unix/1726,unix/Optimus:/tmp/.ICE-unix/1726'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3bba0e14_dc36_4f1b_9146_2e80a34d2a4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimus/Desktop/car_proj_ws/src/car/build/car'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble')]), 'shell': False}
+[0.100004] (-) TimerEvent: {}
+[0.112901] (car) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.157847] (car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.163437] (car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200123] (-) TimerEvent: {}
+[0.212548] (car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.219818] (car) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.220012] (car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.220374] (car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.223214] (car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.291555] (car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300219] (-) TimerEvent: {}
+[0.300416] (car) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.300642] (car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301053] (car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.303456] (car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400328] (-) TimerEvent: {}
+[0.446333] (car) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.500424] (-) TimerEvent: {}
+[0.512113] (car) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.544432] (car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.548236] (car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.554688] (car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.565584] (car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.581003] (car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600490] (-) TimerEvent: {}
+[0.694988] (car) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.695968] (car) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.696188] (car) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.700564] (-) TimerEvent: {}
+[0.749697] (car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.751721] (car) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800665] (-) TimerEvent: {}
+[0.823736] (car) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.844482] (car) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.879291] (car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.886662] (car) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900749] (-) TimerEvent: {}
+[0.944606] (car) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.944974] (car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000883] (-) TimerEvent: {}
+[1.016292] (car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.017505] (car) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100996] (-) TimerEvent: {}
+[1.201231] (-) TimerEvent: {}
+[1.301468] (-) TimerEvent: {}
+[1.401702] (-) TimerEvent: {}
+[1.501946] (-) TimerEvent: {}
+[1.546703] (car) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.548073] (car) StdoutLine: {'line': b'-- Found ros2_control: 2.32.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[1.549152] (car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.602063] (-) TimerEvent: {}
+[1.609236] (car) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.613256] (car) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.613389] (car) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.613458] (car) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.617094] (car) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.617194] (car) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.617933] (car) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.619168] (car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.619985] (car) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.623553] (car) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.623642] (car) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.624326] (car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.625235] (car) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.629128] (car) StdoutLine: {'line': b'-- Generating done\n'}
+[1.631709] (car) StdoutLine: {'line': b'-- Build files have been written to: /home/optimus/Desktop/car_proj_ws/src/car/build/car\n'}
+[1.641610] (car) CommandEnded: {'returncode': 0}
+[1.642869] (car) JobProgress: {'identifier': 'car', 'progress': 'build'}
+[1.642914] (car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimus/Desktop/car_proj_ws/src/car/build/car', '--', '-j12', '-l12'], 'cwd': '/home/optimus/Desktop/car_proj_ws/src/car/build/car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimus'), ('OLDPWD', '/home/optimus/Desktop/car_proj_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimus'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/optimus/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Optimus:@/tmp/.ICE-unix/1726,unix/Optimus:/tmp/.ICE-unix/1726'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3bba0e14_dc36_4f1b_9146_2e80a34d2a4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimus/Desktop/car_proj_ws/src/car/build/car'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble')]), 'shell': False}
+[1.671592] (car) CommandEnded: {'returncode': 0}
+[1.685264] (car) JobProgress: {'identifier': 'car', 'progress': 'install'}
+[1.692451] (car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/optimus/Desktop/car_proj_ws/src/car/build/car'], 'cwd': '/home/optimus/Desktop/car_proj_ws/src/car/build/car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimus'), ('OLDPWD', '/home/optimus/Desktop/car_proj_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimus'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/optimus/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Optimus:@/tmp/.ICE-unix/1726,unix/Optimus:/tmp/.ICE-unix/1726'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3bba0e14_dc36_4f1b_9146_2e80a34d2a4c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimus/Desktop/car_proj_ws/src/car/build/car'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/optimus/Desktop/car_proj_ws/install/car:/opt/ros/humble')]), 'shell': False}
+[1.697672] (car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.697784] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf\n'}
+[1.697891] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf/car.csv\n'}
+[1.698027] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf/car.urdf.xacro\n'}
+[1.698184] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes\n'}
+[1.698252] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_left_link.STL\n'}
+[1.698311] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/rear_right_wheel_link.STL\n'}
+[1.698399] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/Lidar_link.STL\n'}
+[1.698487] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_left_wheel_link.STL\n'}
+[1.698566] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_right_wheel_link.STL\n'}
+[1.698686] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/base_chassis_link.STL\n'}
+[1.698783] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/rear_left_wheel_link.STL\n'}
+[1.698903] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_right_link.STL\n'}
+[1.698983] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch\n'}
+[1.699060] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/debug.launch.py\n'}
+[1.699135] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/robot_description_publisher.py\n'}
+[1.699210] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/gazebo.launch.py\n'}
+[1.699286] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/spawn_robot_ros2.launch.py\n'}
+[1.699345] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/teleop.launch.py\n'}
+[1.699414] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/display.launch.py\n'}
+[1.699473] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/competition.launch.py\n'}
+[1.699532] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//worlds\n'}
+[1.699602] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//worlds/empty_world.world\n'}
+[1.699669] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//config\n'}
+[1.699728] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//config/control.yaml\n'}
+[1.699797] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition\n'}
+[1.699855] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena\n'}
+[1.699912] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/model.sdf\n'}
+[1.699970] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes\n'}
+[1.700031] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/track.STL\n'}
+[1.700090] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/check_point.STL\n'}
+[1.700172] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/base_link.STL\n'}
+[1.700282] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/model.config\n'}
+[1.700391] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/worlds\n'}
+[1.700472] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/worlds/competition.world\n'}
+[1.700573] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/include/car\n'}
+[1.700683] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/lib/car/robot_description_publisher.py\n'}
+[1.700763] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/package_run_dependencies/car\n'}
+[1.700865] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/parent_prefix_path/car\n'}
+[1.700963] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/ament_prefix_path.sh\n'}
+[1.701043] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/ament_prefix_path.dsv\n'}
+[1.701143] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/path.sh\n'}
+[1.701251] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/path.dsv\n'}
+[1.701324] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.bash\n'}
+[1.701398] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.sh\n'}
+[1.701481] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.zsh\n'}
+[1.701565] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.dsv\n'}
+[1.701654] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/package.dsv\n'}
+[1.701784] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/packages/car\n'}
+[1.701889] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/cmake/carConfig.cmake\n'}
+[1.701973] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/cmake/carConfig-version.cmake\n'}
+[1.702064] (car) StdoutLine: {'line': b'-- Installing: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/package.xml\n'}
+[1.702125] (-) TimerEvent: {}
+[1.703154] (car) CommandEnded: {'returncode': 0}
+[1.802204] (-) TimerEvent: {}
+[1.902563] (-) TimerEvent: {}
+[2.002937] (-) TimerEvent: {}
+[2.008017] (car) JobEnded: {'identifier': 'car', 'rc': 0}
+[2.009107] (-) EventReactorShutdown: {}

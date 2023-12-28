@@ -1,0 +1,56 @@
+[0.090s] Invoking command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/optimus/Desktop/car_proj_ws/src/car/build/car -- -j12 -l12
+[0.119s] Invoked command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/optimus/Desktop/car_proj_ws/src/car/build/car -- -j12 -l12
+[0.142s] Invoking command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/optimus/Desktop/car_proj_ws/src/car/build/car
+[0.149s] -- Install configuration: ""
+[0.149s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf/car.csv
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//urdf/car.urdf.xacro
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_left_link.STL
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/rear_right_wheel_link.STL
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/Lidar_link.STL
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_left_wheel_link.STL
+[0.150s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_right_wheel_link.STL
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/base_chassis_link.STL
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/rear_left_wheel_link.STL
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//meshes/front_right_link.STL
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/debug.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/robot_description_publisher.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/gazebo.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/spawn_robot_ros2.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/teleop.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/display.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//launch/competition.launch.py
+[0.151s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//worlds
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//worlds/empty_world.world
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//config
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//config/control.yaml
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena
+[0.152s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/model.sdf
+[0.153s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes
+[0.153s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/track.STL
+[0.153s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/check_point.STL
+[0.153s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/meshes/base_link.STL
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/arena/model.config
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/worlds
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car//competition/worlds/competition.world
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/include/car
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/lib/car/robot_description_publisher.py
+[0.154s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/package_run_dependencies/car
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/parent_prefix_path/car
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/ament_prefix_path.sh
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/ament_prefix_path.dsv
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/path.sh
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/environment/path.dsv
+[0.155s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.bash
+[0.156s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.sh
+[0.156s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.zsh
+[0.156s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/local_setup.dsv
+[0.156s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/package.dsv
+[0.156s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/ament_index/resource_index/packages/car
+[0.157s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/cmake/carConfig.cmake
+[0.157s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/cmake/carConfig-version.cmake
+[0.157s] -- Up-to-date: /home/optimus/Desktop/car_proj_ws/src/car/install/car/share/car/package.xml
+[0.157s] Invoked command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/optimus/Desktop/car_proj_ws/src/car/build/car

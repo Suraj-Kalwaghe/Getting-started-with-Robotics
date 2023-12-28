@@ -1,0 +1,4 @@
+Invoking command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/optimus/Desktop/car_proj_ws/src/car/build/car -- -j12 -l12
+Invoked command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/optimus/Desktop/car_proj_ws/src/car/build/car -- -j12 -l12
+Invoking command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/optimus/Desktop/car_proj_ws/src/car/build/car
+Invoked command in '/home/optimus/Desktop/car_proj_ws/src/car/build/car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/optimus/Desktop/car_proj_ws/src/car/build/car
