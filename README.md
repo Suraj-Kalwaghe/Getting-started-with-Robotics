@@ -89,10 +89,9 @@ or
 ## Verification
 
 Inorder to verify the installation, run the following command:
-'''bash
+```bash
 ros2 --version
-'''
+```
 **Congratulations you have successfully installed ROS2 in your system.**
-Note: Make sure to refer the additional documentation available at the official ros website for accurate information
+Note: Make sure to refer the additional documentation available at the official [ros website](https://docs.ros.org/en/foxy/index.html) for accurate information.
 
-> https://docs.ros.org/en/foxy/index.html
